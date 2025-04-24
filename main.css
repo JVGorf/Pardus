@@ -274,3 +274,9 @@ div.dlg_notes img {
     margin-left: -21px;
     display: none;
 }
+
+/* My edits */
+
+.cargo_image, cargo_image, #cargo_image {
+	margin-top: 15px;
+}
