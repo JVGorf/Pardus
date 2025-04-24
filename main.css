@@ -278,5 +278,9 @@ div.dlg_notes img {
 /* My edits */
 
 .cargo_image, cargo_image, #cargo_image {
-	margin-top: 15px;
+	margin-top: 20px;
+}
+
+commands_image, yourship_image, otherships_image {
+	margin-top: -20px;
 }
