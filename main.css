@@ -30,21 +30,21 @@ table.premium th {
     width: 64px;
     height: 64px;
     border: 0;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .nf96 {
     width: 96px;
     height: 96px;
     border: 0;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .nf128 {
     width: 128px;
     height: 128px;
     border: 0;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .first {
@@ -285,14 +285,7 @@ div.dlg_notes img {
 	margin-top: -20px;
 }
 
-/*
-td[style*="background"] {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-*/
-
+/* This allows 128px ships within 64px div under "Other Ships"*/
 table[id^="tableScannerShip"] td[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
