@@ -30,7 +30,7 @@ table.premium th {
     width: 64px;
     height: 64px;
     border: 0;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .nf96 {
@@ -41,8 +41,8 @@ table.premium th {
 }
 
 .nf128 {
-    width: 64px;
-    height: 64px;
+    width: 128px;
+    height: 128px;
     border: 0;
     cursor: pointer;
 }
