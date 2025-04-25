@@ -285,16 +285,16 @@ div.dlg_notes img {
 	margin-top: -20px;
 }
 
+/*
 td[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
-
-/*
-table[id^="tableScannerShip"] td[style*="background"] {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 */
+
+table[id^="tableScannerShip"] td[style*="background"] {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
