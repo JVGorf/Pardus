@@ -291,10 +291,8 @@ td[style*="background"] {
     background-repeat: no-repeat;
 }
 
-/*
 table[id^="tableScannerShip"] td[style*="background"] {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
-*/
