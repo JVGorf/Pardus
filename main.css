@@ -41,8 +41,8 @@ table.premium th {
 }
 
 .nf128 {
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
     border: 0;
     cursor: pointer;
 }
