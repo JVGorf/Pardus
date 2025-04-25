@@ -286,13 +286,15 @@ div.dlg_notes img {
 }
 
 td[style*="background"] {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
+/*
 table[id^="tableScannerShip"] td[style*="background"] {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+*/
