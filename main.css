@@ -30,21 +30,21 @@ table.premium th {
     width: 64px;
     height: 64px;
     border: 0;
-    cursor: crosshair;
+    cursor: crosshair; /* My edit */
 }
 
 .nf96 {
     width: 96px;
     height: 96px;
     border: 0;
-    cursor: crosshair;
+    cursor: crosshair; /* My edit */
 }
 
 .nf128 {
     width: 128px;
     height: 128px;
     border: 0;
-    cursor: crosshair;
+    cursor: crosshair; /* My edit */
 }
 
 .first {
@@ -275,7 +275,7 @@ div.dlg_notes img {
     display: none;
 }
 
-/* My edits */
+/* Lore edits */
 
 #cargo_image {
 	margin-top: 16px;
@@ -285,9 +285,16 @@ div.dlg_notes img {
 	margin-top: -20px;
 }
 
-/* This allows 128px ships within 64px div under "Other Ships"*/
+/* This allows 128px ships to fit within 64px div under "Other Ships"*/
 table[id^="tableScannerShip"] td[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+}
+
+select, input, button {
+    background-color: #0c1f50; /* 00001C */
+    color: #D0D1D9;
+    border-width: 1px;
+    border-color: #5d6775;
 }
