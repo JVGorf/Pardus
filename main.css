@@ -299,11 +299,11 @@ select, input, button {
     border-color: #5d6775;
 }
 
-/* Fixes some issues with non-contained larger images within smaller ,div */
+/* Fixes some issues with non-contained larger images within smaller div */
 /* replace the wild card "*" with td to effect only TD's with a background image */
 
-*[style*="background"] {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+td[style*="background"] {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
