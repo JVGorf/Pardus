@@ -302,7 +302,7 @@ select, input, button {
 /* Fixes some issues with non-contained larger images within smaller div */
 /* replace the wild card "*" with td to effect only TD's with a background image */
 
-td[style*="background"] {
+element.style[style*="background"] {
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
