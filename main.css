@@ -299,8 +299,8 @@ select, input, button {
     border-color: #5d6775;
 }
 
-/* Test for Gossipers when landed */
-table[id^="messagestyle"] div[style*="background"] {
+/* Test for Gossipers when landed title=""*/
+table[id^="messagestyle"] div[style*="background: url"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
