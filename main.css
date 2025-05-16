@@ -293,7 +293,7 @@ table[id^="tableScannerShip"] td[style*="background"] {
 }
 
 /* Test for Gossipers when landed */
-table[id^="messagestyle"] td[style*="background"] {
+table[id^="messagestyle"] div[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
