@@ -285,8 +285,15 @@ div.dlg_notes img {
 	margin-top: -20px;
 }
 
-/* This allows 128px ships to fit within 64px div under "Other Ships"*/
+/* This allows 128px ships to fit within 64px div under "Other Ships" */
 table[id^="tableScannerShip"] td[style*="background"] {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Test for Gossipers when landed */
+table[id^="messagestyle"] td[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -300,10 +307,12 @@ select, input, button {
 }
 
 /* Fixes some issues with non-contained larger images within smaller div */
-/* replace the wild card "*" with td to effect only TD's with a background image */
+/* replace the wild card "*" with td to effect only TD's with a background image 
 
 element.style[style*="background"] {
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
+
+Did this fix anything? Do I need to remove it? */
