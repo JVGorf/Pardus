@@ -300,7 +300,7 @@ select, input, button {
 }
 
 /* Test for Gossipers when landed title=""*/
-div[style*="background"][style*="width:52px"] {
+div[style*="background: url"][style*="width:52px"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
