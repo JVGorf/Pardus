@@ -299,18 +299,16 @@ select, input, button {
     border-color: #5d6775;
 }
 
-/* Test for Gossipers when landed 
+/* Test for Gossipers when landed */
 table[id^="messagestyle"] div[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
 
-*/
-
 
 /* Fixes some issues with non-contained larger images within smaller div */
-/* replace the wild card "*" with td to effect only TD's with a background image Did this fix anything? Do I need to remove it? */
+/* replace the wild card "*" with td to effect only TD's with a background image 
 
 element.style[style*="background"] {
     background-size: contain !important;
@@ -318,4 +316,5 @@ element.style[style*="background"] {
     background-position: center !important;
 }
 
+Did this fix anything? Do I need to remove it? */
 
