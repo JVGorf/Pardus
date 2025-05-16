@@ -292,19 +292,22 @@ table[id^="tableScannerShip"] td[style*="background"] {
     background-repeat: no-repeat !important;
 }
 
-/* Test for Gossipers when landed */
-table[id^="messagestyle"] div[style*="background"] {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-
 select, input, button {
     background-color: #0c1f50; /* 00001C */
     color: #D0D1D9;
     border-width: 1px;
     border-color: #5d6775;
 }
+
+/* Test for Gossipers when landed 
+table[id^="messagestyle"] div[style*="background"] {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+*/
+
 
 /* Fixes some issues with non-contained larger images within smaller div */
 /* replace the wild card "*" with td to effect only TD's with a background image 
