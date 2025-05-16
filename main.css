@@ -310,7 +310,7 @@ table[id^="messagestyle"] div[style*="background"] {
 
 
 /* Fixes some issues with non-contained larger images within smaller div */
-/* replace the wild card "*" with td to effect only TD's with a background image 
+/* replace the wild card "*" with td to effect only TD's with a background image Did this fix anything? Do I need to remove it? */
 
 element.style[style*="background"] {
     background-size: contain !important;
@@ -318,4 +318,4 @@ element.style[style*="background"] {
     background-position: center !important;
 }
 
-Did this fix anything? Do I need to remove it? */
+
