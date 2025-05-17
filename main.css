@@ -299,29 +299,4 @@ select, input, button {
     border-color: #5d6775;
 }
 
-/* Test for Gossipers when landed title=""
-div[style*="background: url"][style*="width:52px"] {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-Does not work */
-
-table[id^="messagestyle"] div[style*="background"] {
-    background-size: contain !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-
-
-/* Fixes some issues with non-contained larger images within smaller div */
-/* replace the wild card "*" with td to effect only TD's with a background image 
-
-element.style[style*="background"] {
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-}
-
-Did this fix anything? Do I need to remove it? */
 
