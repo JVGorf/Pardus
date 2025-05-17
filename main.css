@@ -299,8 +299,15 @@ select, input, button {
     border-color: #5d6775;
 }
 
-/* Test for Gossipers when landed title=""*/
+/* Test for Gossipers when landed title=""
 div[style*="background: url"][style*="width:52px"] {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+Does not work */
+
+table[id^="messagestyle"] div[style*="background"] {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
